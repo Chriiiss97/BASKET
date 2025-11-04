@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+<div class="basket">
+    <div class="hemma-lag">
+        <h1>Hemma</h1>
+        <h2 id="poäng">0</h2>
+        <div class="h-knappar">
+            <button id="plus1" onclick="enplus()">+1</button>
+            <button id="plus2" onclick="tvåplus()">+2</button>
+            <button id="plus3" onclick="treplus()">+3</button>
+            <button  onclick="hreset()">Reset</button>
+        </div>
+    </div>
+
+    <div class="borta-lag">
+        <h1>Borta</h1>
+        <h2 id="bpoäng">0</h2>
+        <div class="b-knappar">
+           <button id="bplus1" onclick="benplus()">+1</button>
+            <button id="bplus2" onclick="btvåplus()">+2</button>
+            <button id="bplus3" onclick="btreplus()">+3</button>
+            <button  onclick="breset()">Reset</button>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"> </script>
+</body>
+</html>
